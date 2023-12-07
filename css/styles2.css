@@ -1,0 +1,107 @@
+/* make sure the name is a discriptive name to easily find it later */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+    background-color: ivory;
+}
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    overflow: hidden; /* Clear floats */
+}
+.columnbig {
+    width: 75%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    /* border-right: black 3px; */
+}
+.introformatting{
+    font-size: medium;
+    color: darkolivegreen;
+}
+.columnsmall {
+    width: 25%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+li { 
+    font-size: 14px;
+    color: saddlebrown;
+    font-weight: normal;
+    text-decoration: none;
+}
+a {color: darkblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: lightsalmon;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: black;
+    /* border: 3px dotted yellowgreen;
+    background-color: black; */
+}
+.centervideos{
+    display: block;
+    margin: auto;
+}
+img{
+    /* display: block; */
+    padding: 2px;
+    margin: auto;/* centers image with block dispaly */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+img:hover{
+      border: solid lightseagreen 1px;
+}
+.normalimage{
+    margin: 5px;
+    border: solid lightseagreen 1px;
+    position: fixed;
+}
+
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold   {font-weight: bold;}
+.italics {font-style: italic;}
+.justify {text-align: justify;}
+.rightalign{text-align: right;}
+
+.homebg{
+    background-image: url('../images/repeatingBKG.jpeg');
+    background-position: top right;
+}
+.box1{
+border: green 2px solid;
+}
+.box2 {
+padding: 5px;
+}
+.box3{
+margin: 50px;
+}
+.centertext{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
